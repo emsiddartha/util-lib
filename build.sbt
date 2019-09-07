@@ -13,6 +13,8 @@ val springcore = "org.springframework" % "spring-core" % "5.1.9.RELEASE"
 val javaxServlet = "javax.servlet" % "javax.servlet-api" % "3.0.1" % "provided"
 val json4s = "org.json4s" %% "json4s-jackson" % "3.6.7"
 val scalatime = "com.github.nscala-time" %% "nscala-time" % "2.22.0"
+libraryDependencies += "org.springframework.boot" % "spring-boot-starter-web" % "2.1.7.RELEASE"
+
 
 libraryDependencies += mongodb
 libraryDependencies += typesafe
